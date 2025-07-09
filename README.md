@@ -27,7 +27,7 @@ src/
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - All providers are mocked (no real email sending)
 - Logic is built for resilience and reliability
