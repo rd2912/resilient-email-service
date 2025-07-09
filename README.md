@@ -13,3 +13,23 @@ src/
 ├── providers.ts # Two mock email providers (ProviderA, ProviderB)
 ├── EmailService.ts # Logic for sending email with retries and fallback
 ├── main.ts # Sample usage of EmailService
+
+
+---
+
+## 🧪 Features
+
+- Retry with exponential backoff  
+- Fallback between providers  
+- Email ID–based idempotency  
+- Basic rate limiting  
+- Status tracking  
+
+---
+
+## 📝 Notes
+
+- All providers are mocked (no real email sending)
+- Logic is built for resilience and reliability
+- Fully modular and readable code
+
