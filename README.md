@@ -7,7 +7,7 @@ This is a TypeScript-based resilient email service that:
 - Limits how often an email can be sent to the same address (rate limiting)
 - Tracks the status of email sending attempts
 
-## 📁 Project Structure
+##  Project Structure
 
 src/
 ├── providers.ts # Two mock email providers (ProviderA, ProviderB)
@@ -17,7 +17,7 @@ src/
 
 ---
 
-## 🧪 Features
+##  Features
 
 - Retry with exponential backoff  
 - Fallback between providers  
